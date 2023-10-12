@@ -1,0 +1,108 @@
+.Navbar-component{
+    width: 100%;
+    background-color: #1f4b3f;
+    background-image: url("https://demoapus1.com/freeio-new/wp-content/uploads/2022/10/slider2_bg.png");
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.Navbar-container{
+    display: flex;
+}
+.Navbar-container .logo-img{
+    height: 45px;
+}
+.Navbar-container .Navbar-info{
+    display: flex;
+}
+.Navbar-container .Navbar-info a{
+    text-decoration: none;
+    margin-left:15px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.cate-icon{
+    background-color: #ffffff26;
+    border-radius: 20px;
+}
+.cate-icon:hover{
+    background-color: #ffffff49;
+}
+/* /////////////////////////////////////////////////////////////////////////// */
+.Navbar-form{
+    margin-top:8px;
+}
+.Navbar-form a,.search-icon{
+    text-decoration: none;
+    margin-left:16px;
+    font-size: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.Navbar-form #sign-up{
+    background-color: #FFFFFF;
+    color: #1f4b3f;
+    padding: 9px 22px;
+    border-radius: 20px;
+}
+.Navbar-form #sign-up:hover{
+    background-color: #5BBB7B;
+    color: #FFFFFF;
+}
+/* .menu-icon{
+    display: none;
+} */
+.Navbar-form button{
+    visibility: hidden;
+}
+/* /////////////////////////////////////////////////////////////////// */
+.sides-menu{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 50%;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ffffff;
+}
+@media screen and (max-width: 1015px){
+    .Navbar-component{
+        padding: 20px 20px;
+    }
+    .Navbar-container .Navbar-info{
+        display: none;
+    }
+    .Navbar-form #sign-up,.search-icon{
+        display: none;
+    }
+    .Navbar-form button{
+        visibility: visible;
+        width:40px;
+        display: inline;
+    }
+    .Navbar-form button .menu-icon{
+        color: #ffffff;
+        cursor: pointer;
+        font-size: 25px;
+    }
+    #login{
+        display: inline;
+        font-weight: 600;
+        font-size: 22px;
+    }
+    .side-menu{
+        display: block;
+        background-color: bisque;
+        width: 50%;
+        height:100vh;
+        position: absolute;
+        right: 0;
+        top: 0;
+        box-shadow: 2px 0 5px 0 rgba(0, 0, 0, 0.15);
+    }
+}

@@ -1,0 +1,37 @@
+.Learn-component{
+    background-color:#EEF8F1 ;
+    width: 100%; 
+    padding:50px 25px;
+}
+.Learn-component h3{
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.Learn-component p{
+    margin: 10px 10px;
+}
+.Learn-container{
+    justify-content: space-between;
+    align-items: center;
+}
+.learn-card{
+    background-color: #ffffff;
+    justify-content: center;
+    padding: 20px 20px;
+    margin-top: -35px;
+    border-radius: 10px;
+}
+.learn-card p{
+    color: #54a791;
+    font-size: 18px;
+}
+@media screen and (max-width: 1015px){
+    .Learn-container{
+        padding: 0;
+        margin: 0;
+    }
+    .learn-card{
+        padding: 20px 5px;
+        margin-top: 10px;
+    }
+}

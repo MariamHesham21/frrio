@@ -1,0 +1,136 @@
+.Clint-component{
+    width: 100%;
+    padding:50px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.Clint-info,.Clint-container{
+    width: 50%;
+}
+.Clint-container{
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+.clint-img{
+    width: 550px;
+    height: 650px;
+    border-radius: 0px 0px 0px 80px;
+}
+.Clint-overlay{
+    background-color: #1f4b3f;
+    position: absolute;
+    padding: 25px;
+    border-radius: 15px;
+    width: 400px;
+    left:0;
+    top:200px;
+}
+.Clint-overlay h4{
+    color: #ffffff;
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+.icon-overlay{
+    background-color: #ffffff;
+    color:black;
+    border-radius: 10px;
+    margin-right: 10px;
+    width:20px;
+    height:20px;
+}
+.Clint-info{
+    margin: 180px 0px;
+}
+.Clint-info h4{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 10px 0;
+    color: #5BBB7B;
+}
+.Clint-info h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+.Clint-info p{
+    font-size:16px;
+    margin: 25px 35px;
+    color: #333;
+    width: 70%;
+}
+.Clint-info a{
+    display: block;
+    text-decoration: none;
+    background-color: #5BBB7B;
+    color: #ffffff;
+    width: 190px;
+    padding: 20px 20px;
+    text-align: center;
+    margin:40px 30px;
+    border-radius: 30px;
+    font-weight: 700;
+}
+.Clint-info a:hover{
+    background-color: #1f4b3f;
+}
+@media screen and (max-width: 1015px){
+    .Clint-component{
+        padding:10px;
+        justify-content: start;
+        flex-direction: column;
+    }
+    .Clint-info,.Clint-container{
+        width: 100%;
+    }
+    .Clint-container{
+        justify-content: center;
+    }
+    .clint-img{
+        width:100%;
+        height:400px;
+    }
+    .Clint-overlay{
+        padding:5px;
+        width:100%;
+        top:100px;
+    }
+    .Clint-overlay h4{
+        color: #ffffff;
+        margin: 20px 0;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .icon-overlay{
+        background-color: #ffffff;
+        color:black;
+        border-radius: 10px;
+        margin-right: 10px;
+        width:20px;
+        height:20px;
+    }
+    .Clint-info{
+        margin: 10px 0px;
+    }
+    .Clint-info h2{
+        font-size:25px;
+    }
+    .Clint-info p{
+        font-size:16px;
+        margin:0;
+        width:100%;
+    }
+    .Clint-info a{
+        display: block;
+        text-decoration: none;
+        background-color: #5BBB7B;
+        color: #ffffff;
+        width: 190px;
+        padding: 20px 20px;
+        text-align: center;
+        margin:40px 30px;
+        border-radius: 30px;
+        font-weight: 700;
+    }
+}

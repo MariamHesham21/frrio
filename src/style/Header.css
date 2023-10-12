@@ -1,0 +1,178 @@
+.Header-component{
+    width: 100%;
+    background-color: #1f4b3f;
+    background-image: url("https://demoapus1.com/freeio-new/wp-content/uploads/2022/10/slider2_bg.png");
+    display: flex;
+    padding-bottom: 50px;
+}
+.Header-container{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 20px;
+    position: relative;
+}
+.Header-container .main-img1{
+    height:360px;
+    width: 400px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+.Header-container .main-img2{
+    height: 500px;
+    width: 300px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+.Header-info{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px 70px 50px;
+}
+.Header-info .Header-text{
+    width: 60%;
+    padding-top: 100px;
+}
+.Header-info .Header-text h2{
+    color: #ffffff;
+    font-size: 35px;
+    width: 60%;
+    text-transform: capitalize;
+    margin: 25px 10px;
+}
+.Header-info .Header-text p{
+    color: #ffffff;
+    font-size: 14px;
+    width:55%;
+    margin: 25px 10px;
+}
+.header-input{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    width: 90%;
+    padding:12px 2px;
+    border-radius: 50px;
+    margin: 25px 10px;
+    /* height: 50px; */
+}
+.search-input{
+    margin-top: 15px;
+    font-size: 18px;
+}
+.header-input input{
+    width: 300px;
+    padding:5px;
+    border: none;
+    font-size: 18px;
+}
+.header-input a{
+    margin-top: 15px;
+    font-size: 17px;
+}
+.btn-search{
+    width: 120px;
+    padding:18px 0px;
+    background-color: #5BBB7B;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn-search:hover{
+    background-color: #ffffff;
+    color: #5BBB7B;
+    border: 2px solid #5BBB7B;
+}
+.Header-text .main-contant-info{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 10px;
+}
+.Header-text .main-contant-info div{
+    color: #ffffff;
+    width: 23%;
+} 
+.Header-text  .main-contant-info div h3{
+    margin-left: 10px;
+}
+.Header-text .main-contant-info div p{
+    font-size: 12px;
+    margin: 0;
+}
+/* //////////////////////////////////////////////////// */
+.Header-info .Header-boxs{
+    width: 45%;
+}
+.main-contant-box1 , .main-contant-box2 ,.main-contant-box3{
+    background-color: #ffffff;
+    padding:20px;
+    display: flex;
+    width: 60%;
+    border-radius: 15px;
+    margin-bottom: 70px;
+}
+.main-contant-box2{
+    width: 50%;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 1015px){
+    .Header-info{
+        padding:10px;
+    }
+    .Header-info .Header-text{
+        width: 100%;
+        padding-top:70px;
+        background-color: rgba(39, 45, 66, 0.096);
+    }
+    .Header-info .Header-boxs{
+        display: none;
+    }
+    .Header-info .Header-text h2{
+        font-size: 30px;
+        width: 100%;
+        margin: 25px 10px;
+    }
+    .Header-info .Header-text p{
+        width:80%;
+    }
+    .header-input{
+        width: 100%;
+        padding:5px 5px;
+        margin: 25px 2px;
+    }
+    .search-input{
+        display: none;
+    }
+    .header-input input{
+        width: 300px;
+        padding:5px;
+        border: none;
+        font-size: 18px;
+    }
+    .header-input a{
+        display: none;
+    }
+    .btn-search{
+        width: 120px;
+        padding:18px 0px;
+        background-color: #5BBB7B;
+        border: none;
+        border-radius: 50px;
+        color: #ffffff;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .Header-text .main-contant-info{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 25px 0px;
+    }
+}
